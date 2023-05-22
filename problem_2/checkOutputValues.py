@@ -3,7 +3,7 @@ import os
 #Get a list of the valuex files in this directory
 files = [f for f in os.listdir(".") if f.startswith("value")]
 
-#Now open each file
+#Now check each file
 for fileName in files:
     #Open this file
     f = open(fileName,"r")
