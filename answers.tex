@@ -54,7 +54,10 @@ I would consider the following questions important to beginning the development,
 In particular, are they a pre-determined list of people or will they be selected based on certain criteria?
 This is an important question as it defines exactly how we go about data capture, and the sort of implementation that will be required of us, which would change dramatically depending on the answer.
 
-I would also posit that this could potentially raise ethical and GDPR concerns, but I suppose that this is the job of the ethics review committee rather than the RSEs.
+The size of the expected dataset is also an important consideration that I would look to discuss here.
+Larger datasets require fundamentally different approaches to storage than a smaller selection of comments, so it's important to know how we wish to approach storage when we start.
+
+I would also posit that the response here could potentially raise ethical and GDPR concerns, but I suppose that this is the job of the ethics review committee rather than the RSEs.
 
 \item \textbf{What is the time window that counts as the run-up to the Indian general election?}
 
@@ -65,6 +68,11 @@ This would likely start off some more background questions on the election cycle
 
 It is important that we know what the goal of the research is in order to capture comments and posts that are relevant and useful to the study.
 Potentially this could be multiple answers, in which case it would be useful to have a ranked hierarchy so we can prioritise the most relevant/useful information.
+
+\item \textbf{What relational information needs to be saved?}
+
+Does the researcher want to store comments and posts grouped by user, subject material, positive or negative attitude, or something entirely different?
+This is widely related to previous questions, and will go towards establishing the data architecture for the gathered information.
 
 \item \textbf{What tools is the researcher planning to use in the analysis of the collected data?}
 
